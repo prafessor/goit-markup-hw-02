@@ -13,7 +13,7 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
-  color: #2e2f42;
+  color: #434455;
 }
 /* ============= /COMMON STYLES ============= */
 /* ============= HEADER STYLES ============= */
@@ -28,9 +28,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-.blue-text {
   color: #4d5ae5;
+}
+.text-navyblue {
+  color: #2e2f42;
 }
 .navbar-list {
 }
@@ -40,12 +41,14 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .navbar-link:hover,
-.navbar-link:active {
+.navbar-link:focus {
   color: #404bbf;
 }
 .header-contacts {
+    font-style: normal;
 }
 .contacts-list {
 }
@@ -53,12 +56,11 @@ body {
 }
 .contacts-link {
   color: #434455;
-  font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .contacts-link:hover,
-.contacts-link:active {
+.contacts-link:focus {
   color: #404bbf;
 }
 /* ============= /HEADER STYLES ============= */
@@ -80,8 +82,9 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.hero-button:hover {
-    color: #404BBF;
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 /* ============= /HERO STYLES ============= */
 
@@ -99,6 +102,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .benefits-text {
   font-size: 16px;
@@ -118,6 +122,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .team-list {
 }
@@ -132,6 +138,7 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #2e2f42;
 }
 .team-text {
   line-height: 1.5;
@@ -149,6 +156,8 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -161,6 +170,7 @@ body {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .portfolio-text {
   line-height: 1.5;
@@ -177,5 +187,8 @@ body {
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.text-white {
+    color: #f4f4fd;
 }
 /* ============= /FOOTER STYLES ============= */
